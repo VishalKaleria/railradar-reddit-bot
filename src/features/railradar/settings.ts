@@ -15,7 +15,7 @@ export type RailRadarSettings = {
 };
 
 export const SETTINGS_DEFAULTS: RailRadarSettings = {
-  enabled: true,
+  enabled: false,
   pnrEnabled: true,
   cooldownSeconds: 0,
   maxRepliesPerPost: 10,
